@@ -4,13 +4,28 @@
             <h3>Sign Up</h3>
 
             <div class="form-group">
-                <label>Full Name</label>
+                <label>First Name</label>
+                <input type="text" class="form-control form-control-lg"/>
+            </div>
+
+            <div class="form-group">
+                <label>Last Name</label>
                 <input type="text" class="form-control form-control-lg"/>
             </div>
 
             <div class="form-group">
                 <label>Email address</label>
                 <input type="email" class="form-control form-control-lg" />
+            </div>
+
+             <div class="form-group">
+                <label>Mobile</label>
+                <input type="phone" class="form-control form-control-lg" />
+            </div>
+
+            <div class="form-group d-none">
+                <label>User Type</label>
+                <input type="text" value="customer"  class="form-control form-control-lg" />
             </div>
 
             <div class="form-group">
